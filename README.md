@@ -1,5 +1,5 @@
 
-# 📋 Projeto: Lista de Afazeres (ToDoList)
+# Projeto: Lista de Afazeres (ToDoList)
 
 ## 1. Visão Geral
 Este projeto é uma aplicação de console desenvolvida em **Java** para gerenciar uma lista de tarefas pessoais.  
