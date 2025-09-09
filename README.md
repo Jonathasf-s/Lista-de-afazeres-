@@ -1,26 +1,26 @@
 
 # 📋 Projeto: Lista de Afazeres (ToDoList)
 
-## 🔎 1. Visão Geral
+## 1. Visão Geral
 Este projeto é uma aplicação de console desenvolvida em **Java** para gerenciar uma lista de tarefas pessoais.  
 Ele implementa operações básicas de **CRUD** (Criar, Ler, Atualizar, Deletar).  
 Os dados são armazenados apenas em memória, ou seja, são perdidos quando o programa é encerrado.  
 
 ---
 
-## ⚙️ 2. Funcionalidades Principais
+## 2. Funcionalidades Principais
 O sistema interage com os usuários por meio de um menu baseado em texto, oferecendo as seguintes funções:  
 
-- ➕ **Adicionar Tarefa**: Cria uma nova tarefa com título e descrição. Cada tarefa recebe um ID único, data/hora de criação e começa como "Pendente".  
-- 📄 **Listar Todas as Tarefas**: Exibe todas as tarefas com ID, título, descrição, status ("Pendente" ou "Concluída") e data de criação.  
-- ✏️ **Atualizar Tarefa**: Permite modificar o título e a descrição de uma tarefa já existente usando o ID.  
-- 🗑️ **Deletar Tarefa**: Remove definitivamente uma tarefa da lista usando o ID.  
-- ✅ **Marcar Tarefa como Concluída**: Possibilidade de concluir uma tarefa. A classe `Tarefa` já possui o método necessário, mas a lógica no menu ainda precisa ser finalizada.  
-- 🚪 **Sair**: Encerra o programa.  
+-  **Adicionar Tarefa**: Cria uma nova tarefa com título e descrição. Cada tarefa recebe um ID único, data/hora de criação e começa como "Pendente".  
+-  **Listar Todas as Tarefas**: Exibe todas as tarefas com ID, título, descrição, status ("Pendente" ou "Concluída") e data de criação.  
+-  **Atualizar Tarefa**: Permite modificar o título e a descrição de uma tarefa já existente usando o ID.  
+-  **Deletar Tarefa**: Remove definitivamente uma tarefa da lista usando o ID.  
+-  **Marcar Tarefa como Concluída**: Possibilidade de concluir uma tarefa. A classe `Tarefa` já possui o método necessário, mas a lógica no menu ainda precisa ser finalizada.  
+-  **Sair**: Encerra o programa.  
 
 ---
 
-## 🗂️ 3. Estrutura dos Arquivos
+##  3. Estrutura dos Arquivos
 
 - **`Main.java`**  
   - Ponto de entrada da aplicação.  
@@ -54,7 +54,7 @@ O sistema interage com os usuários por meio de um menu baseado em texto, oferec
 
 ---
 
-## ▶️ 4. Como Executar a Aplicação
+##  4. Como Executar a Aplicação
 
 1. Certifique-se de ter o **JDK** instalado.  
 2. Compile os arquivos Java na pasta `src/`:  
@@ -69,12 +69,4 @@ O sistema interage com os usuários por meio de um menu baseado em texto, oferec
 
 ---
 
-## 🚀 5. Melhorias Futuras
-
-- 🔗 **Integração do Menu**: Conectar todas as opções do menu aos métodos de `TarefaServico`.  
-- 💾 **Persistência de Dados**: Salvar as tarefas em arquivos (TXT, JSON, CSV) ou em banco de dados.  
-- 👥 **Classe Cliente**: Permitir que cada cliente tenha sua própria lista de tarefas.  
-
----
-
-📌 Projeto desenvolvido como prática de programação em Java para sistemas de console.
+ Projeto desenvolvido como prática de programação em Java para sistemas de console.
